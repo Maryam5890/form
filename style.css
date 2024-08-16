@@ -1,0 +1,48 @@
+form {
+    width: 300px;
+}
+input {
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+    max-height: 100px;
+}
+input, textarea {
+
+    outline: none;
+    border: 1px solid grey;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(red, green, blue, alpha);
+    border: 1px solid red;
+}
+::placeholder {
+    color: red;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: red;
+    opacity: 1;
+}
+::-ms-input-placeholder {
+    color: red;
+    opacity: 1;
+}
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-container input[type="radio"] {
+    margin-right: 0.5rem; 
+  }
+  
+  .flex-container label {
+    margin-right: 1rem;
+  }
+  
